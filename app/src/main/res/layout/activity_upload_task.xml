@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.scci.uploadtask.UploadTaskActivity">
+
+        <!--// 6 , 8  , 12 , 16 , 24 ,36 ,48 -->
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="2dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/startup_1_check_box"
+                    android:layout_marginTop="8dp"
+                    android:text="startup 1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/startup_2_check_box"
+                    android:layout_marginTop="8dp"
+                    android:text="startup 2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/startup_3_check_box"
+                    android:layout_marginTop="8dp"
+                    android:text="startup 3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/startup_4_check_box"
+                    android:layout_marginTop="8dp"
+                    android:text="startup 4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="2dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/appsplash_rd"
+                    android:text="Appsplash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <RadioButton
+                    android:id="@+id/devology_rd"
+                    android:text="Devology"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+                <RadioButton
+                    android:id="@+id/markaitve_rd"
+                    android:text="Markaitve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+                <RadioButton
+                    android:id="@+id/investneur_rd"
+                    android:text="Investneur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <RadioButton
+                    android:id="@+id/techsolve_rd"
+                    android:text="techsolve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:visibility="gone"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="8dp"
+                android:text="@string/dummy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:textSize="18dp"
+                    android:text="select your deadline"
+                    android:layout_marginStart="24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="16dp"
+                            android:text="date "
+                            android:id="@+id/date_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <View
+                            android:background="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="16dp"
+                            android:text="time"
+                            android:id="@+id/time_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <View
+                            android:background="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
